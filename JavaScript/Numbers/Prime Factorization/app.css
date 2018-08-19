@@ -1,0 +1,10 @@
+#output {
+  background: lightsalmon;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 1.5em;
+  padding: 60px 40px;
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,66 @@
+//////////////////////
+Example with number 70
+//////////////////////
+
+1.
+  number = 70
+
+  70 % 2 === 0 is true, so a while loop runs
+  it adds 2 to the array and divides 70 by 2
+  (current array [2])
+
+  now number (or num) is 35
+
+  35 % 2 === 0 ? false, while loop stops
+
+2.
+  we take the same number (35) and extract its root, which is 5.91 or just 5
+  then we run a for loop 3 times (starting at 3, then 4 and 5)
+    we run a while loop to check if num % i === 0.
+    35 % 3 === 0? false
+    35 % 4 === 0? false
+    35 % 5 === 0? true, so we add 5 to the array and divide 35 by 5 (35 / 5 = 7)
+    now number = 7
+    (current array [2, 5])
+    while loop ends
+
+3.
+  now we check if the number is bigger than 2 and if it is we add it to the array (which is called primeFactors)
+  7 > 2? true
+
+  FINAL RESULT: [2, 5, 7]
+  (2 * 5 * 7 = 70)
+
+
+///////////////////////////////
+Another example with number 113
+///////////////////////////////
+
+
+1.
+  number = 113
+
+  113 % 2 === 0? false, loop never runs
+
+  number is still = 113
+
+2.
+  we take the same number (133) and extract its root, which is 10.63 or just 10
+  then we run a for loop 8 times (checking 3, then 4, 5, 6, 7, 8, 9 and 10)
+    we run a while loop to check if num % i === 0.
+    113 % 3 === 0? false
+    113 % 4 === 0? false
+    113 % 5 === 0? false
+    113 % 6 === 0? false
+    113 % 7 === 0? false
+    113 % 8 === 0? false
+    113 % 9 === 0? false
+    113 % 10 === 0? false
+    (while loop never runs)
+
+3.
+  now we check if the number is bigger than 2 and if it is we add it to the array (which is called primeFactors)
+  113 > 2? true
+
+  FINAL RESULT: [113]
+  (113 = 113)
