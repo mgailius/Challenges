@@ -1,5 +1,7 @@
+body { background: #f16941; }
+
 #output {
-  background: lightsalmon;
+  background: antiquewhite;
   border-radius: 10px;
   font-family: monospace;
   font-size: 1.5em;
@@ -7,4 +9,5 @@
   position: absolute;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0 3px 15px 0 #444;
 }
